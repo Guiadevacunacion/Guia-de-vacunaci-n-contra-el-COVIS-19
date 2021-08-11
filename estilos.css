@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica;
+    background-image: url('fondo.jpg') ; 
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+   display: block; 
+   text-align: center;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.Menu li a:hover{
+    background: #3f20f0;
+}
